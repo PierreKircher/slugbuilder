@@ -1,6 +1,6 @@
 #!/bin/bash
 set -eo pipefail
-
+set -x
 if [[ "$1" == "-" ]]; then
 	slug_file="$1"
 else
